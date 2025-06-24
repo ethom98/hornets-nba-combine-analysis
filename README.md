@@ -1,25 +1,30 @@
 # 🏀 Hornets NBA Combine Analysis
 
-This project explores how NBA Draft Combine metrics relate to career success and durability in the NBA.
+This project analyzes how NBA Draft Combine metrics relate to long-term NBA success and durability.
 
-## 📊 Goals
-- Evaluate if metrics like wingspan, agility, and vertical jump correlate with advanced stats like Box Plus/Minus (BPM)
-- Help inform draft decisions using historical patterns
+## 🎯 Objectives
+- Explore the correlation between physical metrics (wingspan, vertical jump, lane agility, etc.) and NBA performance.
+- Use advanced stats like Box Plus/Minus (BPM), True Shooting %, and Games Played to measure success.
+- Assist teams (e.g. Charlotte Hornets) in identifying under-the-radar value in prospects.
+
+## 📊 Key Visualizations
+
+### Wingspan vs BPM
+![Wingspan vs BPM](https://github.com/ethom98/hornets-nba-combine-analysis/blob/main/Plots/wingspan_vs_bpm.png?raw=true)
+
+More plots are available in the `Plots/` folder.
 
 ## 🧪 Tools Used
-- Python, pandas, seaborn, matplotlib
+- Python
+- pandas, seaborn, matplotlib
 - Jupyter Notebooks
 - Git & GitHub
 
 ## 🔧 Data Cleaning Steps
-- Reformatted player names from "Last, First" to "First Last"
-- Merged datasets by name
-- Filtered for players with complete Combine and career data
+- Reformatted Combine player names from `"Last, First"` to `"First Last"`
+- Normalized all player names to lowercase
+- Merged three datasets (Combine, Career, Advanced stats) on `player_name`
+- Removed rows with missing core metrics (BPM, wingspan, TS%, etc.)
 
-## 📈 Key Visuals
-![Wingspan vs BPM](plots/wingspan_vs_bpm.png)
+## 📁 Project Structure
 
-## 📁 Files
-- `analysis.ipynb`: Notebook with all cleaning, merging, and visuals
-- `data/final_merged_dataset.csv`
-- `plots/`: Visual summaries
