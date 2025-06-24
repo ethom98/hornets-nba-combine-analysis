@@ -26,5 +26,8 @@ More plots are available in the `Plots/` folder.
 - Merged three datasets (Combine, Career, Advanced stats) on `player_name`
 - Removed rows with missing core metrics (BPM, wingspan, TS%, etc.)
 
-## 📁 Project Structure
+## 📂 Project Deliverables
 
+- 📎 [Hornets Report Slide Deck (PDF)](Hornets_Report.pdf)
+- 📊 [Jupyter Notebook Analysis](analysis.ipynb)
+- 📁 [Final Merged Dataset](data/final_merged_dataset.csv)
