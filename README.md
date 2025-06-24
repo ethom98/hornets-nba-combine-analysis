@@ -30,4 +30,6 @@ More plots are available in the `Plots/` folder.
 
 - 📎 [Hornets Report Slide Deck (PDF)](Hornets_Report.pdf)
 - 📊 [Jupyter Notebook Analysis](analysis.ipynb)
-- 📁 [Final Merged Dataset](Data/final_merged_dataset.csv): Contains all players with complete Combine + career stats used for analysis
+- 📁 [Final Merged Dataset](Data/final_merged_dataset.csv): Contains all players with complete Combine + career stats used for analysi-
+- 📊[Correlation Matrix](Plots/correlation_matrix.png)
+
