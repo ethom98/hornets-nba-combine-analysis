@@ -1,5 +1,3 @@
-# hornets-nba-combine-analysis
-A statistical deep dive into NBA Draft metrics and their correlation with long-term player impact.
 # 🏀 Hornets NBA Combine Analysis
 
 This project explores how NBA Draft Combine metrics relate to career success and durability in the NBA.
