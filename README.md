@@ -34,17 +34,24 @@ More plots are available in the `Plots/` folder.
 - 📊[Correlation Matrix](Plots/correlation_matrix.png)
 
 ## ✅ Conclusion
-This analysis revealed that NBA Draft Combine metrics like wingspan, agility, and vertical jump have only **weak to moderate correlations** with long-term career impact as measured by Box Plus/Minus (BPM), games played, and true shooting percentage.
 
-Key takeaways:
-- **Wingspan** showed a very weak positive correlation with BPM
-- **Agility and sprint times** were slightly more predictive of durability (games played)
-- **Vertical jump and height** showed almost no meaningful correlation with long-term success
+This project explored how NBA Draft Combine metrics relate to long-term career success, using Box Plus/Minus (BPM), True Shooting % (TS%), and Games Played as outcome variables. After cleaning and merging Combine and career data for hundreds of players, we generated a full correlation matrix to evaluate which traits — if any — were predictive.
 
-While Combine metrics provide useful baseline traits, they are **not strong standalone predictors** of NBA impact. Successful draft strategy should combine measurable data with **contextual scouting**, **role fit**, and **skill evaluation** to better project a player's career trajectory.
+### 📊 Key Findings:
+- **Wingspan → BPM:** `–0.00` — virtually no correlation
+- **Sprint Time → BPM:** `–0.07` — slightly faster players had better impact, but effect is minimal
+- **Vertical Leap → BPM:** `+0.05` — no real link
+- **Lane Agility → BPM:** `–0.01` — no significant relationship
+- **Height → USG%:** `–0.21` — taller players use fewer possessions
+- **TS% ↔ BPM:** `+0.24` — stronger impact correlation came from *in-game efficiency*, not Combine stats
 
-Future work could include:
-- Incorporating **qualitative scouting grades**
-- Exploring **clustering** or **regression modeling**
-- Comparing combine results of overachievers vs. busts
+### 🎯 Interpretation
+> Combine traits like wingspan, vertical, and sprint time show **weak or negligible** correlation with career performance (BPM), efficiency (TS%), or availability (GP). The strongest signal came from `TS% → BPM`, which reflects **on-court skill** not Combine measurements.
 
+### 📌 Takeaway
+> Combine metrics **do not reliably predict NBA success**. Traits like speed or size may influence role fit, but they should be combined with contextual scouting and skill-based metrics for better draft decisions.
+
+### 🔬 Future Directions
+- Re-merge full Combine metrics (e.g., body fat %, max vert)
+- Build a regression model to evaluate multiple-trait prediction
+- Cluster “overachievers” and “combine stars” to find edge cases
