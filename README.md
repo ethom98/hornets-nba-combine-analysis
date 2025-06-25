@@ -32,3 +32,19 @@ More plots are available in the `Plots/` folder.
 - 📊 [Jupyter Notebook Analysis](analysis.ipynb)
 - 📁 [Final Merged Dataset](Data/final_merged_dataset.csv): Contains all players with complete Combine + career stats used for analysis
 - 📊[Correlation Matrix](Plots/correlation_matrix.png)
+
+## ✅ Conclusion
+This analysis revealed that NBA Draft Combine metrics like wingspan, agility, and vertical jump have only **weak to moderate correlations** with long-term career impact as measured by Box Plus/Minus (BPM), games played, and true shooting percentage.
+
+Key takeaways:
+- **Wingspan** showed a very weak positive correlation with BPM
+- **Agility and sprint times** were slightly more predictive of durability (games played)
+- **Vertical jump and height** showed almost no meaningful correlation with long-term success
+
+While Combine metrics provide useful baseline traits, they are **not strong standalone predictors** of NBA impact. Successful draft strategy should combine measurable data with **contextual scouting**, **role fit**, and **skill evaluation** to better project a player's career trajectory.
+
+Future work could include:
+- Incorporating **qualitative scouting grades**
+- Exploring **clustering** or **regression modeling**
+- Comparing combine results of overachievers vs. busts
+
